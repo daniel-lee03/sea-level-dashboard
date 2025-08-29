@@ -663,7 +663,7 @@ with st.expander("🧾 원자료 미리보기"):
     st.download_button(
         label="📥 위 미리보기 그대로 CSV 다운로드",
         data=csv_bytes,
-        file_name=f"gmsl_preview_{year_range[0]}-{year_range[1]}_{unit}_baseline1880.csv",
+        file_name=f"gmsl_preview_{year_range[0]}-{year_range[1]}_{unit}_start0.csv",
         mime="text/csv",
         help="현재 '원자료 미리보기'에 보이는 표를 그대로 저장합니다."
     )

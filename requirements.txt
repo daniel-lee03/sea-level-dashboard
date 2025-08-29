@@ -1,1 +1,6 @@
-streamlit
+streamlit>=1.36
+pandas>=2.2
+numpy>=1.26
+requests>=2.32
+pyecharts>=2.0.5
+streamlit-echarts>=0.4.0
